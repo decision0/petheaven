@@ -8,6 +8,7 @@
     "setup-project": "npm i && cd client && npm i",
     "server": "nodemon server",
     "client": "cd client && npm run dev",
+    "setup-production-app": "npm i && cd client && npm i && npm run build ",
     "dev": "concurrently --kill-others-on-fail \" npm run server\" \" npm run client\""
   },
   "keywords": [],
@@ -27,6 +28,7 @@
     "express-mongo-sanitize": "^2.2.0",
     "express-rate-limit": "^6.8.0",
     "express-validator": "^7.0.1",
+    "firebase": "^10.3.0",
     "helmet": "^7.0.0",
     "http-status-codes": "^2.2.0",
     "jsonwebtoken": "^9.0.0",
